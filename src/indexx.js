@@ -14,6 +14,9 @@ export default class Index extends React.Component {
       negativeText: text
     });
   };
+  callLoginAction = (userEmail, userPassword) => {
+    this.props.postLogin(userEmail, userPassword);
+  };
   render() {
     return (
       <Container>
