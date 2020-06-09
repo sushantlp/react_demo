@@ -4,6 +4,7 @@ import Login from "./components/auth/Login";
 import Signup from "./components/auth/Signup";
 import Done from "./components/auth/Done";
 import Dashboard from "./components/dashboard/Dashboard";
+import card from "./components/auth/card";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Route exact path="/signup" component={Signup} />
         <Route exact path="/done" component={Done} />
         <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/card" component={card} />
       </Router>
     );
   }

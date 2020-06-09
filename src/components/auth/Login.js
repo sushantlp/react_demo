@@ -32,6 +32,10 @@ class Login extends Component {
         <Message size="big">
           <Link to="/signup">Not Registered?</Link>
         </Message>
+
+        <Message size="big">
+          <Link to="/card">click here</Link>
+        </Message>
       </Layout>
     );
   }
